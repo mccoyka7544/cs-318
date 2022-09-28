@@ -1,0 +1,23 @@
+body{
+    background-image: url(images/cherry-pattern.webp);
+    background-repeat: repeat;
+    background-size: 300px;
+    background-position:top;
+}
+header{
+    text-align: center;
+    background-color: lightcoral;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header a{
+    color:white;
+}
+main{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .5rem;
+}
+h1:hover{
+    color:blue
+}
