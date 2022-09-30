@@ -28,3 +28,79 @@ nav>a{
     display: inline-block;
     margin: 1rem
 }
+nav>a:hover{
+    background-color: rgb(200, 200, 205);
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+nav{
+    flex-basis: 100%;
+    text-align: center;
+}
+main{
+    padding:1rem;
+}
+main>img{
+    max-width: 100%;
+    margin: .5rem 0;
+}
+.about-me h2{
+    background-image: url(images/me.jpeg);
+    background-size: cover;
+    padding: 10rem 0 10rem 4rem;
+    text-shadow: 2px 2px 2px #0000008f;
+}
+.gallery h2{
+    background-color:rgb(245, 245, 245);
+    color:rgb(15, 15, 45);
+    padding: 2rem 4rem;
+}
+@media (min-width:1100px){
+    nav{
+        flex-basis: unset;
+    }
+    header{
+        flex-wrap:nowrap;
+        justify-content: space-between;
+        align-items:flex-end;
+    }
+    .about-me{
+        display: flex;
+    }
+    .about-me h2{
+        flex-basis:40%;
+        background-position: center;
+    }
+    .about-me div{
+        flex-basis: 50%;
+        margin-left: 2rem;
+    }
+    h2{
+        padding-left: 4rem;
+    }
+    .gallery{
+        display: flex;
+        flex-flow: column wrap;
+        max-height: 78rem;
+    }
+    .gallery h2{
+        margin: 0.5rem;
+    }
+    .gallery img{
+        width:32%;
+        margin: .5rem;
+    }
+}
+@media (min-width:1500px){
+    .gallery{
+        max-height: 120rem;
+    }
+}
+@media (min-width:2300px){
+    .gallery{
+        max-height: 150rem;
+    }
+}
