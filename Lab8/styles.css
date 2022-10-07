@@ -113,6 +113,7 @@ section>h2{
     }
     nav{
         position:absolute;
+        position: fixed;
     }
     article{
         max-width: 60rem;
