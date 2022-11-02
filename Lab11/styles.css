@@ -32,7 +32,7 @@ form{
 }
 input[type=text], [type=email], [type=date], [type=number], [type=color]{
     font-size: 1.25rem;
-    width: calc(100%-1rem);
+    width: calc(100%-1rem);/*Need a space on both sides of the minus sign*/
     border: 3px solid yellowgreen;
     padding: .5rem;
     border-radius: .25rem;
@@ -55,7 +55,7 @@ input[type=reset],[type=submit]{
     border: 3px solid yellowgreen;
     margin: 1rem 2rem 0 0;
 }
-input [type=submit]{
+input [type=submit]{/*The space after input is breaking this selector*/
     background-color: black;
     color: yellowgreen;
 }
