@@ -49,6 +49,12 @@ section{
     }
     header{
         grid-column: 1/3;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sidenav>a{
+        display: block;
+        text-align: right;
     }
 
 
