@@ -66,7 +66,7 @@ header nav{
 }
 .parallax{
     position: fixed;
-    width: 150;
+    width: 150;/*Missing a %*/
     top:0;
     z-index: -1;
 }
@@ -173,17 +173,17 @@ footer{
         text-decoration: underline;
     }
     .social{
-        padding: right 2rem;
+        padding: right 2rem;/*This should be padding-right*/
     }
     h1{
-        margin: left -16rem;
+        margin: left -16rem;/*This should be margin-left*/
     }
     .call-to-action{
         padding: 20rem calc((100% - 900px)/2) 5rem;
     }
     .call-to-action h2{
         font-size: 5rem;
-        margin: bottom 1rem;
+        margin: bottom 1rem;/*This should be margin-bottom*/
     }
     p, h3{
         max-width: 900px;
