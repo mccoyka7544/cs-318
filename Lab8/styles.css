@@ -1,7 +1,7 @@
 body{
     background-color: #27213C;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
 }
 header{
@@ -12,7 +12,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index:0;/*should be -1 */
+    z-index:-1;
 }
 nav>a{
     color: #e2512d;
@@ -21,7 +21,7 @@ nav>a{
     font-weight: 900;
     display: inline-block;
 }
-nav>a:hover {
+nav>a:hover{
     color: #A33B20;
     text-decoration: underline;
 }
@@ -117,6 +117,8 @@ section>h2{
     }
     nav{
         position:absolute;
+        top: 1rem;
+        left: 1rem;
         /*Missing top and left with a rem value to move the nav to the top left of the nav.*/
     }
     article{
